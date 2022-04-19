@@ -1,3 +1,9 @@
+# extract from https://docs.docker.com/engine/reference/builder/
+# ```js
+# Array.prototype.map.call(
+#  document.querySelectorAll('h2'), n => n.innerText)
+#  .filter(t => t == t.toUpperCase())
+# ```
 "FROM"
 "RUN"
 "CMD"
